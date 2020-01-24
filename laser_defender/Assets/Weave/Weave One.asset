@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c47c74aedc518949aabd78f43317997, type: 3}
+  m_Name: Weave One
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 3948856493497512588, guid: 3a39755c1cd6d344c8cf01e94ac49cfc,
+    type: 3}
+  pathPrefab: {fileID: 5146292208912517296, guid: 41849db29e5846045ada793ebd41b5a3,
+    type: 3}
+  timeBetweenSpawns: 0.5
+  spawnRandomFactor: 0.3
+  moveSpeed: 2
+  numberOfEnemies: 5
